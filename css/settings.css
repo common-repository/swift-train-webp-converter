@@ -1,0 +1,46 @@
+#swift-train-webp-converter .wp-heading-inline {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#swift-train-webp-converter .section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#swift-train-webp-converter .section:not(.actions) {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#swift-train-webp-converter .section-content,
+#swift-train-webp-converter .swift-train-webp-converter-setting-field {
+	display: flex;
+	flex-direction: column;
+}
+
+#swift-train-webp-converter .section-content {
+	gap: 20px;
+}
+
+#swift-train-webp-converter .swift-train-webp-converter-setting-field {
+	gap: 10px;
+}
+
+#swift-train-webp-converter .swift-train-webp-converter-setting-field > label {
+	cursor: text;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#swift-train-webp-converter .section.actions {
+	align-items: center;
+	display: flex;
+}
+
+#swift-train-webp-converter .ajax_message {
+	margin-left: 10px;
+}

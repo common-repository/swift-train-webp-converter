@@ -1,0 +1,86 @@
+# Translation of Plugins - Swift Train Webp Converter - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Swift Train Webp Converter - Stable (latest release) package.
+
+#: templates/settings-page.php
+msgid "Source Format"
+msgstr "来源格式"
+
+#: inc/activator.php
+msgid "The Swift Train WebP Converter plugin requires the \"%s\" extension to be enabled on your server. Please enable it and try again."
+msgstr "Swift Train WebP Converter插件需要在您的服务器上启用PHP的 \"%s\" 扩展。请启用它，然后重试。"
+
+#: inc/activator.php
+msgid "The Swift Train WebP Converter plugin requires the %s function to be available on your server. Please check your PHP installation and try again."
+msgstr "Swift Train WebP Converter插件需要您的服务器上可用 %s 函数。请检查您的PHP安装并重试。"
+
+#: admin/admin.php
+msgid "Settings"
+msgstr "设置"
+
+#: admin/admin.php
+msgid "Invalid source format values."
+msgstr "无效的来源格式设置"
+
+#: admin/admin.php
+msgid "Invalid quality setting."
+msgstr "无效的压缩质量设置"
+
+#: admin/admin.php
+msgid "Invalid max allowed image size."
+msgstr "无效的最大可处理图片尺寸"
+
+#: templates/settings-page.php
+msgid "Conversion Quality"
+msgstr "压缩质量"
+
+#: templates/settings-page.php
+msgid "Lower values yield better compression but lower image quality. Default (92) is a good balance between image quality and compression. Please set a value between 1 ~ 100"
+msgstr "更低的数值可以带来更高的压缩率但是以损失画面质量为代价的。默认（92）是一个介于质量和尺寸之间比较合适的中间值。设置范围 1 ~ 100"
+
+#: templates/settings-page.php
+msgid "When you see \"The server cannot process the image...Suggested maximum size is 2560 pixels\", you can override this by drag the slider to the max image size you want to allow. Increment is 64px."
+msgstr "当你看到\"服务器无法处理图片……建议的最大尺寸为 2560 像素\"的时候，你可以将最大允许处理的图片尺寸增加到最大 8192px。"
+
+#: templates/settings-page.php
+msgid "Max allowed image size: %spx"
+msgstr "最大可处理的图片尺寸：%spx"
+
+#: templates/settings-page.php
+msgid "Delete source file"
+msgstr "转换后删除原始图片"
+
+#: templates/settings-page.php
+msgid "Saving..."
+msgstr "保存中..."
+
+#: templates/settings-page.php
+msgid "Saved"
+msgstr "保存完成"
+
+#: templates/settings-page.php
+msgid "At least one source format needs to be selected!"
+msgstr "必须至少选择一个来源格式！"
+
+#: templates/settings-page.php
+msgid "Delete source file to free up some disk space."
+msgstr "删除原始图片可以释放硬盘空间"
+
+#: templates/settings-page.php
+msgid "Conversion quality: %s%%"
+msgstr "压缩质量：%s%%"
+
+#: templates/settings-page.php
+msgid "Save"
+msgstr "保存"
+
+#: swift-train-webp-converter.php
+msgid "Unsupported image type: %s"
+msgstr "不支持的图像格式：%s"
+
+#: swift-train-webp-converter.php
+msgid "Failed to convert %s to webp format"
+msgstr "转换 %s 失败"
+
+#: swift-train-webp-converter.php
+msgid "File %s does not exist!"
+msgstr "文件 %s 不存在！"
